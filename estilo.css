@@ -1,0 +1,219 @@
+/* Estilos Css */
+
+ul {
+  list-style-type: none;
+  margin: 10px auto;
+  padding: auto;
+  overflow: hidden;
+  background: url(../img/body2.jpg);
+}
+
+li:hover{
+background-color:rgb(234, 243, 234);
+border-radius: 30px;
+animation-duration: 2ms;
+
+}
+ 
+li {
+  float: left;
+}
+
+li a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  padding: 24px 26px;
+  text-decoration: none;
+  font-size: larger;
+  padding: 1.9em auto;
+}
+
+.body5 {
+  font-family: "Patrick Hand", cursive;
+  border: solid rgb(56, 50, 50);
+  display: flex;
+  text-align: center;
+  color: #e6e3da;
+  font-weight: 50px;
+  width: 90%;
+  max-width: 1000px;
+  margin: 1.6em auto;
+}
+
+form {
+  width: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #bdbdbd;
+}
+
+/* Aplicacion de grid a seccion de Bodegas */
+
+.container {
+  width: 95%;
+  max-width: 1000px;
+  margin: 5px auto;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.container > .header,
+.container > .content,
+.container > .bodegas,
+.container > div {
+  background: #fff;
+  padding: 5px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.container > .header {
+  grid-column: 1;
+  background: url(../img/table6.jpg);
+  color: black;
+  font-family: "Style Script", cursive;
+  justify-content: center;
+  display: flex;
+}
+
+.container > .content {
+  grid-column: span 3;
+  grid-row: span 3;
+}
+
+.content > .article {
+  background: url(../img/table6.jpg);
+  padding: 5px;
+  margin: 5px;
+}
+
+.content .article h1,
+.content .article p {
+  padding: 5px;
+  font-family: "Patrick Hand", cursive;
+}
+
+.container > .bodegas {
+  grid-column: span 2;
+  grid-row: span 3;
+  background: #ffff;
+  color: black;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+/* Estilo frexbox*/
+
+.table {
+  display: flex;
+  font-family: "Patrick Hand", cursive;
+  border: solid rgb(8, 8, 8);
+  text-align: center;
+  font-size: large;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background: url(../img/table6.jpg);
+}
+
+body {
+  flex-direction: column;
+  display: flex;
+  background-color: #ffff;
+  border: 1px solid #1d221d;
+  border-radius: 10px;
+  font-family: "Patrick Hand", cursive;
+  font-size: larger;
+  font-weight: 20px;
+  width: 90%;
+  max-width: 1000px;
+  margin: 1.6em auto;
+}
+
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+  color: black;
+  padding: 20px 0px;
+  font-size: 1.9em;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-family: "Patrick Hand", cursive;
+  font-size: large;
+  margin-top: 40px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  background: url(../img/Home.jpg);
+  font-family: "Patrick Hand", cursive;
+  padding: 50px;
+  color: black;
+  border-radius: 10px;
+  margin: 1.6em;
+  margin-top: 10px;
+}
+
+.imagenvino {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+
+}
+
+.parrafo {
+  display: flex;
+  justify-content: center;
+  font-family: "Style Script", cursive;
+  color: black;
+  font-size: 1.6em;
+}
+
+img{ 
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.animate__animated:hover {
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  border-radius: 30px;
+}
+
+
+/*xs - sm*/
+@media only screen and (min-width: 600px) {
+body{
+  background-color: rgb(154, 223, 154);
+
+}
+
+   }
+   @media only screen and (min-width: 728px) {
+    body{
+      background-color: #bdbdbd;
+    }
+    
+       }
+       @media only screen and (min-width: 1000px) {
+        body{
+          background-color: #fff;
+        }
+        
+           }

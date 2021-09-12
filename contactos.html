@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinos Mendoza</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <p class="logo">
+        LOGO</p>    
+    <nav class="nav">           
+        <div>
+        <ul>
+ <li><a href="index.html">Inicio</a></li>
+ <li><a href="nosotros.html">Nosotros</a></li>
+ <li><a href="bodegas.html">Bodegas</a></li>
+ <li><a href="servicios.html">Servicios</a></li>
+ <li><a href="contactos.html">Contacto</a></li> 
+ </ul>
+</div>
+        </nav>
+<h1 class="titulo">Contactos</h1>
+
+</header>
+<body>
+
+
+    <form action="contactos.html"  method="post" name="formDatosPersonales">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder=""/><br>
+    
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" placeholder=""/><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="" required />
+         <br>
+        <label for="asunto">Asunto:</label>
+        <input type ="text" name="asunto" id="asunto" placeholder=""/><br>
+    
+        <label for="mensaje">Mensaje:</label>
+        <textarea name="mensaje" for="mensaje" placeholder="" maxlength="300"></textarea>
+        
+           <p>
+
+            Intereses (Vinoteca):<br>
+        
+            <input type="checkbox" name="Tinto" value="gusta"> tinto<br>
+        
+            <input type="checkbox" name="Blanco" value="gusta"> Blanco<br>
+        
+            <input type="checkbox" name="Rosado" value="gusta"> Rosado 
+        
+          </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+       </form>   
+
+       <footer class="footer">
+        <p>Todos los derechos reservados :: Vinoteca Mendoza :: Buenos
+             Aires, Argentina 2021</p>
+    </footer> 
+    
+</body>
+</html>
