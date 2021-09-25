@@ -9,7 +9,6 @@ ul {
 }
 
 li:hover{
-background-color:rgb(234, 243, 234);
 border-radius: 30px;
 animation-duration: 2ms;
 
@@ -32,7 +31,8 @@ li a {
 
 
 form {
-  width: 300px;
+  width: 350px;
+  height: 300px;
   padding: 16px;
   border-radius: 10px;
   margin: auto;
@@ -55,7 +55,6 @@ form {
 .container > .content,
 .container > .bodegas,
 .container > div {
-  background: #fff;
   padding: 5px;
   border: 1px solid #000000;
   border-radius: 10px;
@@ -66,7 +65,6 @@ form {
 
 .container > .header {
   grid-column: 1;
-  background: url(../img/table6.jpg);
   color: black;
   justify-content: center;
   display: flex;
@@ -77,10 +75,9 @@ form {
   grid-row: span 3;
   font-family: 'Bebas Neue', cursive;
 }
-}
+
 
 .content > .article {
-  background: url(../img/table6.jpg);
   padding: 20px;
   margin: 20px;
   font-family: 'Bebas Neue', cursive;
@@ -90,12 +87,12 @@ form {
 .content .article p {
   padding: 20px;
   font-family: 'Bebas Neue', cursive;
+  font-size: large;
 }
 
 .container > .bodegas {
   grid-column: span 2;
   grid-row: span 3;
-  background: #ffff;
   color: black;
   display: flex;
   align-items: center;
@@ -107,6 +104,7 @@ form {
 .table {
   display: flex;
   font-family: 'Bebas Neue', cursive;
+  color: #000000;
   border: solid rgb(8, 8, 8);
   text-align: center;
   font-size: large;
@@ -114,14 +112,17 @@ form {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  background: url(../img/table6.jpg);
+  background-color: rgb(32, 32, 28));
 }
 
 body {
   flex-direction: column;
   display: flex;
-  background-color: #ffff;
-  border: 5px solid #1d221d;
+  background: url(../img/body1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 1200px;
   border-radius: 10px;
   font-family: "Patrick Hand", cursive;
   font-size: larger;
@@ -140,7 +141,6 @@ body {
   color: black;
   padding: 20px 0px;
   font-size: 1.9em;
-  background-color: grey;
 }
 
 .footer {
@@ -154,7 +154,6 @@ body {
 .nav {
   display: flex;
   justify-content: center;
-  background-color:#fff;
   font-family: 'Bebas Neue', cursive;
   padding: 50px;
   color: black;
@@ -183,12 +182,14 @@ img{
   height: auto;
   border-radius: 30px;
 }
+.nosotros{
+  justify-content: left;
+  font-family: 'Bebas Neue', cursive;
+  margin: 20px;
+  font-size:x-large;
 
-.logo{
-  display: flex;
-  justify-content: center;
+
 }
-
 .animate__animated:hover {
   animation-duration: 6s;
   animation-iteration-count: infinite;
