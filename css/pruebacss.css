@@ -1,0 +1,153 @@
+.nav {
+  font-size: 15px !important;
+  letter-spacing: 5px;
+  border-color: transparent;
+  font-family: Montserrat, sans-serif;
+  justify-content: center;
+  margin: 1.6em auto;
+  margin-top: 20px;
+  padding: auto;
+  max-width: auto; }
+  .nav ul {
+    list-style-type: none;
+    margin: 10px auto;
+    padding: auto;
+    overflow: hidden; }
+    .nav ul li {
+      float: left; }
+      .nav ul li li a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #22333b !important;
+        padding: 20px 20px;
+        text-decoration: none;
+        font-size: xx-large;
+        padding: 1.9em auto; }
+        .nav ul li li a li:hover {
+          border-radius: 30px;
+          animation-duration: 2ms;
+          background-color: #c6ac8f;
+          color: #22333b; }
+
+form {
+  width: 400px;
+  height: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #c6ac8f;
+  font-family: Montserrat, sans-serif;
+  justify-content: left; }
+
+/* Aplicacion de grid a seccion de Bodegas */
+.container {
+  width: 95%;
+  max-width: 1000px;
+  margin: 5px auto;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(5, 1fr); }
+
+.container > .header,
+.container > .content,
+.container > .bodegas,
+.container > div {
+  padding: 5px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 1000px; }
+
+.container > .header {
+  grid-column: 1;
+  color: black;
+  justify-content: center;
+  display: flex; }
+
+.container > .content {
+  grid-column: span 3;
+  grid-row: span 3;
+  font-family: Montserrat, sans-serif;
+  background-color: #dfbf9c; }
+
+.content > .article {
+  padding: 20px;
+  margin: 20px;
+  font-family: Montserrat, sans-serif; }
+
+.content .article h1,
+.content .article p {
+  padding: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: larger; }
+
+.container > .bodegas {
+  grid-column: span 2;
+  grid-row: span 3;
+  color: black;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #c6ac8f; }
+  .container > .bodegas .animate__animated:hover {
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    border-radius: 30px; }
+
+/* Estilo frexbox*/
+body {
+  background-color: #b197a7;
+  border-radius: 10px;
+  font-family: Montserrat, sans-serif;
+  font-size: larger;
+  font-weight: 50px;
+  margin: auto; }
+  body .titulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    padding: 20px 0px;
+    font-size: 1.9em; }
+  body .table {
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    color: #000000;
+    border: solid #080808;
+    text-align: center;
+    font-size: large;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: #e2f1f7; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat, sans-serif;
+  font-size: large;
+  margin-top: 40px;
+  color: black;
+  background-color: #c6ac8f; }
+
+.nosotros {
+  justify-content: left;
+  font-family: Montserrat, sans-serif;
+  margin: 20px;
+  font-size: x-large; }
+
+/*xs - sm*/
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: #9adf9a; } }
+
+@media only screen and (min-width: 728px) {
+  body {
+    background-color: #bdbdbd; } }
+
+@media only screen and (min-width: 1000px) {
+  body {
+    background-color: #f3ddc6; } }

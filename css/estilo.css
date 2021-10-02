@@ -5,13 +5,13 @@ ul {
   margin: 10px auto;
   padding: auto;
   overflow: hidden;
-  background: url(../img/body2.jpg);
 }
 
 li:hover{
 border-radius: 30px;
 animation-duration: 2ms;
-
+background-color: #c6ac8f;
+color: #22333b;
 }
  
 li {
@@ -19,25 +19,26 @@ li {
 }
 
 li a {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: black;
-  padding: 24px 26px;
-  text-decoration: none;
-  font-size: larger;
-  padding: 1.9em auto;
+display: flex;
+justify-content: center;
+text-align: center;
+color:#22333b !important;
+padding: 20px 20px;
+text-decoration: none;
+font-size: xx-large;
+padding: 1.9em auto;
 }
 
 
 form {
-  width: 350px;
+  width: 400px;
   height: 300px;
   padding: 16px;
   border-radius: 10px;
   margin: auto;
-  background-color: #bdbdbd;
-  font-family: 'Bebas Neue', cursive;
+  background-color: #c6ac8f;
+  font-family: Montserrat, sans-serif;
+  justify-content: left;
 }
 
 /* Aplicacion de grid a seccion de Bodegas */
@@ -73,21 +74,22 @@ form {
 .container > .content {
   grid-column: span 3;
   grid-row: span 3;
-  font-family: 'Bebas Neue', cursive;
+  font-family: Montserrat, sans-serif;
+  background-color: #dfbf9c;
 }
 
 
 .content > .article {
   padding: 20px;
   margin: 20px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: Montserrat, sans-serif;
 }
 
 .content .article h1,
 .content .article p {
   padding: 20px;
-  font-family: 'Bebas Neue', cursive;
-  font-size: large;
+  font-family: Montserrat, sans-serif;
+  font-size: larger;
 }
 
 .container > .bodegas {
@@ -97,13 +99,14 @@ form {
   display: flex;
   align-items: center;
   border-radius: 10px;
+  background-color: #c6ac8f;
 }
 
 /* Estilo frexbox*/
 
 .table {
   display: flex;
-  font-family: 'Bebas Neue', cursive;
+  font-family: Montserrat, sans-serif;
   color: #000000;
   border: solid rgb(8, 8, 8);
   text-align: center;
@@ -112,24 +115,18 @@ form {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  background-color: rgb(32, 32, 28));
+  background-color: #c6ac8f;
+
 }
 
-body {
-  flex-direction: column;
-  display: flex;
-  background: url(../img/body1.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 1200px;
+ body {
+  background-color: #c6ac8f;
   border-radius: 10px;
-  font-family: "Patrick Hand", cursive;
+  font-family: Montserrat, sans-serif;
   font-size: larger;
   font-weight: 50px;
-  width: auto;
-  max-width: auto;
   margin: auto;
+ 
 }
 
 
@@ -137,7 +134,7 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-family: 'Bebas Neue', cursive;
+  font-family: Montserrat, sans-serif;
   color: black;
   padding: 20px 0px;
   font-size: 1.9em;
@@ -146,21 +143,24 @@ body {
 .footer {
   display: flex;
   justify-content: center;
-  font-family: "Patrick Hand", cursive;
+  font-family: Montserrat, sans-serif;
   font-size: large;
   margin-top: 40px;
+  color: black;
+  background-color:#c6ac8f;
 }
 
 .nav {
-  display: flex;
+  font-size: 15px !important;
+  letter-spacing: 5px;
+  border-color: transparent;
+  font-family: Montserrat, sans-serif;
   justify-content: center;
-  font-family: 'Bebas Neue', cursive;
-  padding: 50px;
-  color: black;
-  border-radius: 10px;
-  margin: 1.6em;
-  margin-top: 10px;
-}
+  margin: 1.6em auto;
+  margin-top: 20px;
+  padding: auto;
+  max-width: auto;
+   }
 
 .imagenvino {
   display: flex;
@@ -182,9 +182,9 @@ img{
   height: auto;
   border-radius: 30px;
 }
-.nosotros{
+.nosotros {
   justify-content: left;
-  font-family: 'Bebas Neue', cursive;
+  font-family: Montserrat, sans-serif;
   margin: 20px;
   font-size:x-large;
 
@@ -213,7 +213,7 @@ body{
        }
        @media only screen and (min-width: 1000px) {
         body{
-          background-color: #fff;
+          background-color: #eae0d5;
         }
         
            }
