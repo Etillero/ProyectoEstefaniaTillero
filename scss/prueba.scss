@@ -1,6 +1,46 @@
 
 @import "variables.scss";
 
+$colorUno: #c6ac8f;
+$anchoCaja: 1000px;
+$colorDos: #b197a7;
+
+/* aplicando mixin*/
+@mixin bordes {
+    
+  border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+
+}
+@mixin sombras{
+
+}
+
+.stretched-link{
+  color: black !important;
+  text-decoration: none;
+  bottom: 30px;
+  padding: 15px;
+  background: $colorDos;
+  @include bordes;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    font-size: large;
+    margin-top: 40px;
+    color: black;
+    background: $colorUno;
+  }
+
+  .titulo {
+    @extend .footer;
+  }
+
+
 .nav {
     font-size: 15px !important;
     letter-spacing: 5px;
@@ -129,15 +169,6 @@ ul {
     font-size: larger;
     font-weight: 50px;
     margin: auto;
-    .titulo {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        font-family: Montserrat, sans-serif;
-        color: black;
-        padding: 20px 0px;
-        font-size: 1.9em;
-      }
       .table {
         display: flex;
         font-family: Montserrat, sans-serif;
@@ -149,21 +180,11 @@ ul {
         margin-left: auto;
         margin-right: auto;
         border-radius: 10px;
-        background-color: #e2f1f7;
       
       }
   }
   
-  
-  .footer {
-    display: flex;
-    justify-content: center;
-    font-family: Montserrat, sans-serif;
-    font-size: large;
-    margin-top: 40px;
-    color: black;
-    background-color:#c6ac8f;
-  }
+
   
   
   .nosotros {

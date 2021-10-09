@@ -10,7 +10,7 @@ ul {
 li:hover{
 border-radius: 30px;
 animation-duration: 2ms;
-background-color: #c6ac8f;
+background-color: #b4bfc4;
 color: #22333b;
 }
  
@@ -31,25 +31,24 @@ padding: 1.9em auto;
 
 
 form {
-  width: 400px;
-  height: 300px;
-  padding: 16px;
+  width: 250px;
+  height: 450;
+  padding: 10px;
   border-radius: 10px;
-  margin: auto;
-  background-color: #c6ac8f;
+  margin: 30px;
+  background-color: #bdbdbd;
   font-family: Montserrat, sans-serif;
-  justify-content: left;
 }
 
 /* Aplicacion de grid a seccion de Bodegas */
 
 .container {
-  width: 95%;
+  width: 90%;
   max-width: 1000px;
   margin: 5px auto;
   display: grid;
   gap: 5px;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 3fr);
 }
 
 .container > .header,
@@ -65,23 +64,23 @@ form {
 }
 
 .container > .header {
-  grid-column: 1;
+  grid-column: ;
   color: black;
   justify-content: center;
   display: flex;
 }
 
 .container > .content {
-  grid-column: span 3;
-  grid-row: span 3;
   font-family: Montserrat, sans-serif;
-  background-color: #dfbf9c;
+  background-color: #bdbdbd;
+  grid-column: span 3;
+  grid-row: span 2;
 }
 
 
 .content > .article {
-  padding: 20px;
-  margin: 20px;
+  padding: 10px;
+  margin: 10px;
   font-family: Montserrat, sans-serif;
 }
 
@@ -93,13 +92,11 @@ form {
 }
 
 .container > .bodegas {
-  grid-column: span 2;
-  grid-row: span 3;
   color: black;
   display: flex;
   align-items: center;
   border-radius: 10px;
-  background-color: #c6ac8f;
+  background-color: #bdbdbd;
 }
 
 /* Estilo frexbox*/
@@ -115,12 +112,12 @@ form {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  background-color: #c6ac8f;
+  background-color: #bdbdbd;
 
 }
 
  body {
-  background-color: #c6ac8f;
+  background-color: #b4bfc4;
   border-radius: 10px;
   font-family: Montserrat, sans-serif;
   font-size: larger;
@@ -147,27 +144,10 @@ form {
   font-size: large;
   margin-top: 40px;
   color: black;
-  background-color:#c6ac8f;
+  background-color:#bdbdbd;
 }
 
-.nav {
-  font-size: 15px !important;
-  letter-spacing: 5px;
-  border-color: transparent;
-  font-family: Montserrat, sans-serif;
-  justify-content: center;
-  margin: 1.6em auto;
-  margin-top: 20px;
-  padding: auto;
-  max-width: auto;
-   }
 
-.imagenvino {
-  display: flex;
-  justify-content: center;
-  margin-top: 0px;
-
-}
 
 .parrafo {
   display: flex;
@@ -185,7 +165,7 @@ img{
 .nosotros {
   justify-content: left;
   font-family: Montserrat, sans-serif;
-  margin: 20px;
+  margin: 10px;
   font-size:x-large;
 
 
@@ -193,7 +173,7 @@ img{
 .animate__animated:hover {
   animation-duration: 6s;
   animation-iteration-count: infinite;
-  border-radius: 30px;
+  border-radius: 32px;
 }
 
 
