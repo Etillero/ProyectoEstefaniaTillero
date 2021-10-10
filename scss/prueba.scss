@@ -13,9 +13,6 @@ $colorDos: #b197a7;
  -moz-border-radius: 10px;
 
 }
-@mixin sombras{
-
-}
 
 .stretched-link{
   color: black !important;
@@ -38,6 +35,7 @@ $colorDos: #b197a7;
 
   .titulo {
     @extend .footer;
+    background: #9a8fc2;
   }
 
 

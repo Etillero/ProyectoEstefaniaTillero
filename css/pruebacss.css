@@ -18,6 +18,9 @@
   color: black;
   background: #c6ac8f; }
 
+.titulo {
+  background: #9a8fc2; }
+
 .nav {
   font-size: 15px !important;
   letter-spacing: 5px;

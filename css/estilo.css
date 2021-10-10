@@ -1,3 +1,28 @@
+
+.stretched-link{
+  color: black !important;
+  text-decoration: none;
+  bottom: 30px;
+  padding: 15px;
+  background:#e4b7e4;
+  font-family: Montserrat, sans-serif; 
+  border-radius: 10px;
+  text-align:justify;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    font-size: large;
+    margin-top: 40px;
+    color: #000000
+     }
+   
+.titulo{
+  background: #e4b7e4;
+  overflow: visible;
+}
 /* Estilos Css */
 
 ul {
@@ -10,7 +35,7 @@ ul {
 li:hover{
 border-radius: 30px;
 animation-duration: 2ms;
-background-color: #b4bfc4;
+background-color: #e4b7e4;
 color: #22333b;
 }
  
@@ -35,11 +60,17 @@ form {
   height: 450;
   padding: 10px;
   border-radius: 10px;
-  margin: 30px;
-  background-color: #bdbdbd;
+  position: absolute;
+  top: 405px;
+  left: 800px;
+  margin: 20px;
+  background-color:  #e4b7e4;
   font-family: Montserrat, sans-serif;
 }
 
+.mapa{
+  margin: 50px;
+}
 /* Aplicacion de grid a seccion de Bodegas */
 
 .container {
@@ -64,7 +95,6 @@ form {
 }
 
 .container > .header {
-  grid-column: ;
   color: black;
   justify-content: center;
   display: flex;
@@ -72,7 +102,6 @@ form {
 
 .container > .content {
   font-family: Montserrat, sans-serif;
-  background-color: #bdbdbd;
   grid-column: span 3;
   grid-row: span 2;
 }
@@ -82,6 +111,7 @@ form {
   padding: 10px;
   margin: 10px;
   font-family: Montserrat, sans-serif;
+  font-size: large;
 }
 
 .content .article h1,
@@ -96,7 +126,6 @@ form {
   display: flex;
   align-items: center;
   border-radius: 10px;
-  background-color: #bdbdbd;
 }
 
 /* Estilo frexbox*/
@@ -112,12 +141,11 @@ form {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  background-color: #bdbdbd;
 
 }
 
  body {
-  background-color: #b4bfc4;
+  background: #be9bba;
   border-radius: 10px;
   font-family: Montserrat, sans-serif;
   font-size: larger;
@@ -135,16 +163,6 @@ form {
   color: black;
   padding: 20px 0px;
   font-size: 1.9em;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  font-family: Montserrat, sans-serif;
-  font-size: large;
-  margin-top: 40px;
-  color: black;
-  background-color:#bdbdbd;
 }
 
 
@@ -165,11 +183,20 @@ img{
 .nosotros {
   justify-content: left;
   font-family: Montserrat, sans-serif;
-  margin: 10px;
+  margin: 30px auto;
   font-size:x-large;
 
+}
+
+.nosotros1{
+  padding: 20px;
+  margin: 30px auto;
+  font-family: Montserrat, sans-serif;
+  font-size: larger;
 
 }
+
+
 .animate__animated:hover {
   animation-duration: 6s;
   animation-iteration-count: infinite;
