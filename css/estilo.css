@@ -1,75 +1,76 @@
 
-.stretched-link{
-  color: black !important;
+
+.card-link{
+  color:#000 !important;
   text-decoration: none;
   bottom: 30px;
   padding: 15px;
-  background:#e4b7e4;
-  font-family: Montserrat, sans-serif; 
+  font-family: 'Oswald', sans-serif;
+  background:rgb(202, 203, 206);
   border-radius: 10px;
   text-align:justify;
+   }
+   .accordion-button{
+    color:rgb(241, 13, 13) !important;
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Oswald', sans-serif;
+     text-align:justify;
+
+   }
+
+  .body3{
+   font-family: Montserrat, sans-serif;
+   background-size: 20px 20px;
+   background-position: 0 0, 10px 10px;
+   min-height: 100vh;
+   justify-content: center;
+   background-color: #fff;
+
   }
-  
-  .footer {
+  .flex-center{
     display: flex;
     justify-content: center;
-    font-family: Montserrat, sans-serif;
-    font-size: large;
-    margin-top: 40px;
-    color: #000000
-     }
-   
-.titulo{
-  background: #e4b7e4;
-  overflow: visible;
-}
-/* Estilos Css */
-
-ul {
-  list-style-type: none;
-  margin: 10px auto;
-  padding: auto;
-  overflow: hidden;
+    align-items: center;
 }
 
-li:hover{
-border-radius: 30px;
-animation-duration: 2ms;
-background-color: #e4b7e4;
-color: #22333b;
+#fondo{
+    width: 1300px;
+    height: 800px;
+    background-image: url(../img/home7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
 }
- 
-li {
-  float: left;
+#fondo h1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
 }
-
-li a {
-display: flex;
-justify-content: center;
-text-align: center;
-color:#22333b !important;
-padding: 20px 20px;
-text-decoration: none;
-font-size: xx-large;
-padding: 1.9em auto;
-}
-
-
-form {
-  width: 250px;
-  height: 450;
-  padding: 10px;
-  border-radius: 10px;
-  position: absolute;
-  top: 405px;
-  left: 800px;
-  margin: 20px;
-  background-color:  #e4b7e4;
+.container-fluid{
+  color: #000;
   font-family: Montserrat, sans-serif;
 }
+  
+/* Estilos Css */
 
-.mapa{
-  margin: 50px;
+
+.form *{
+  background-color: rgb(202, 203, 206);
+  margin: auto;
+  width: 90%;
+  max-width: 400px;
+  padding: 4.5 em 3em;
+  border-radius: 10px ;
+  box-shadow: 0 5px 10 px -5px rgb(0 0 0 / 20%);
+  text-align: center;
+  margin-top: 3px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.color{
+  background-color: #fff;
 }
 /* Aplicacion de grid a seccion de Bodegas */
 
@@ -122,6 +123,7 @@ form {
 }
 
 .container > .bodegas {
+  margin-top: 50px;
   color: black;
   display: flex;
   align-items: center;
@@ -130,42 +132,26 @@ form {
 
 /* Estilo frexbox*/
 
-.table {
-  display: flex;
-  font-family: Montserrat, sans-serif;
-  color: #000000;
-  border: solid rgb(8, 8, 8);
-  text-align: center;
-  font-size: large;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-
-}
-
- body {
-  background: #be9bba;
-  border-radius: 10px;
-  font-family: Montserrat, sans-serif;
-  font-size: larger;
-  font-weight: 50px;
-  margin: auto;
- 
-}
-
-
 .titulo {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-family: Montserrat, sans-serif;
-  color: black;
-  padding: 20px 0px;
-  font-size: 1.9em;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  padding: 30px;
+  margin: 0px;
+  font-size: 3.9em;
+  overflow: visible;
+  background-color:rgb(15, 11, 11);;
+  margin-top: 200px;
 }
+.navbar-toggler{
+  color: #fff;
 
-
+}
+#carouselExampleControls{
+  margin-top: 50px;
+}
 
 .parrafo {
   display: flex;
@@ -173,19 +159,25 @@ form {
   font-family: "Style Script", cursive;
   color: black;
   font-size: 1.6em;
+  margin-top: 30px;
 }
 
 img{ 
   max-width: 100%;
   height: auto;
   border-radius: 30px;
-}
+   }
+
 .nosotros {
   justify-content: left;
   font-family: Montserrat, sans-serif;
   margin: 30px auto;
   font-size:x-large;
 
+   }
+
+.flex-center{
+  margin-top: 3px;
 }
 
 .nosotros1{
@@ -203,24 +195,27 @@ img{
   border-radius: 32px;
 }
 
-
 /*xs - sm*/
 @media only screen and (min-width: 600px) {
 body{
   background-color: rgb(154, 223, 154);
 
 }
-
-   }
+ ul li{
+   display: block;
+   justify-content: center;
+    }
    @media only screen and (min-width: 728px) {
     body{
       background-color: #bdbdbd;
     }
     
        }
-       @media only screen and (min-width: 1000px) {
+
+       @media only screen and (min-width: 1000px){
+
+
         body{
           background-color: #eae0d5;
         }
-        
-           }
+                     }

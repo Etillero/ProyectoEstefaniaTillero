@@ -12,6 +12,15 @@
       href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <!-- Animaciones -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- change footer -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -22,23 +31,27 @@
 </head>
 
   <body>
-    <header class="header">     
-      <nav class="nav">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img src="../ProyectoEstefaniaTillero/img/logotipo.png" alt="Mendoza" width="130" height="124">
-          </a></div>
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="nosotros.html">Nosotros</a></li>
-          <li><a href="bodegas.html">Bodegas</a></li>
-          <li><a href="servicios.html">Servicios</a></li>
-          <li><a href="contactos.html">Contactos</a></li>
-        </ul>
-      </nav>
+    <header class="header">  
+      <nav>  
+      <div class="w3-top">
+        <div class="w3-bar w3-white w3-card" id="myNavbar">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="../ProyectoEstefaniaTillero/img/logotipo.png" alt="Mendoza" width="100" height="94">
+            </a></div>
+          <div class="w3-right w3-hide-small">
+            <a href="index.html" class="w3-bar-item w3-button">Inicio</a>
+            <a href="nosotros.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Nosotros</a>
+            <a href="bodegas.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Bodegas</a>
+            <a href="servicios.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> Servicios</a>
+            <a href="contactos.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contactos</a>
+          </div>
+        </nav>
+        <h1 class="titulo">Mend<span style="color: #ed1b24">oza</span></h1>
     </header>
-    <h1 class="titulo">Vinos Mendoza</h1>
     <main>
+      <!--
+        Elimine la tabla porque no hacia juego.
       <table class="table">
         <tr>
           <td><strong>Vinos </strong></td>
@@ -68,25 +81,52 @@
           </td>
         </tr>
       </table>
+     <div class="container-fluid">
       <div class="row g-0 bg-light position-relative">
         <div class="col-md-6 mb-md-0 p-md-4">
           <img src="img/carousel 11.jpg" class="w-100" alt="Copas de vino rose y macarrones">
         </div>
         <div class="col-md-6 p-4 ps-md-0">
           <h5 class="mt-0">La Naturaleza En Tu Copa.</h5>
-          <p>Somos custodios de un terruno que admiramos. Nos enriquecemos a diario de las bondades de la naturaleza en Mendoza, 
-            y la protegemos y preservamos para las próximas generaciones.</p>
+          <p>El vino es un producto artesanal que cuenta con un proceso de
+            elaboración en el que la naturaleza demuestra toda su sabiduría.</p>
           <a href="contactos.html" class="stretched-link">Contactanos</a>
         </div>
-        <!-- saque el video porque no hacia juego con el index
--->
-
+      </div>
     </main>
-    <footer class="footer">
-      <p>
-        Todos los derechos reservados :: Vinoteca Mendoza :: Buenos Aires,
-        Argentina 2021.
-      </p>
-    </footer>
+  -->
+  <div class="flex-center">
+    <div id="fondo" class="flex-center">
+      <div class="card" style="width: 30rem;">
+        <img src="img/carousel 11.jpg" class="card-img-top" alt="Copas de vino rose y macarrones">
+        <div class="card-body">
+          <h4 class="card-title">La mejor experiencia a tu paladar.</h4>
+          <p class="card-text">Tinto, Blanco o Rosado, tienen diferentes texturas y sabores para
+            descubrir cual es tu preferido. Teniendo en cuenta tu menu o el clima
+            en el que te encuentres.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Casamientos.</li>
+          <li class="list-group-item"> Vacaciones.</li>
+          <li class="list-group-item">Degustaciones.</li>
+        </ul>
+        <div class="card-body">
+          <a href="contactos.html" class="card-link">Contactos</a>
+          <a href="servicios.html" class="card-link">Servicios</a>
+        </div>
+      </div>
+    </div>
+</div>
+<footer class="w3-center w3-white w3-padding-64">
+  <a href="index.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right">Vinos Mendoza</i> </a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
   </body>
 </html>
