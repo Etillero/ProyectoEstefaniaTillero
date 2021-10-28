@@ -1,87 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - Vinos Mendoza</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinos Mendoza</title>
     <meta name="descripcion" content="Viñedos, tour guiado de vinos, celebracion de bodas">
-    <link rel="stylesheet" href="css/estilo.css">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <!-- change footer -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
-
-  <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-<!-- JavaScript Bundle with Popper -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+ <!-- CSS only -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+ <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-</head>   
+</head> 
 
-<body>
+<body class="body3">
 <header class="header">
-    <nav class="nav"> 
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="../ProyectoEstefaniaTillero/img/logotipo.png" alt="Mendoza" width="130" height="124">
-        </a></div>          
-        <ul>
- <li><a href="index.html">Inicio</a></li>
- <li><a href="nosotros.html">Nosotros</a></li>
- <li><a href="bodegas.html">Bodegas</a></li>
- <li><a href="servicios.html">Servicios</a></li>
- <li><a href="contactos.html">Contactos</a></li> 
- </ul>
-        </nav>
-<h1 class="titulo">Contactos</h1>
-<p class="parrafo">Para mas informacion sobre nuestros servicios, no dudes en registrarte y te enviaremos un mail con toda la información
-  que necesites para tu mejor estadia, degustaciones, paquetes de viajes y más
-</p>
+         
+  <nav>  
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-card" id="myNavbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="../ProyectoEstefaniaTillero/img/logotipo.png" alt="Mendoza" width="100" height="94">
+          </a></div>
+        <div class="w3-right w3-hide-small">
+          <a href="index.html" class="w3-bar-item w3-button">Inicio</a>
+          <a href="nosotros.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Nosotros</a>
+          <a href="bodegas.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Bodegas</a>
+          <a href="servicios.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> Servicios</a>
+          <a href="contactos.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contactos</a>
+        </div>
+      </nav>
+
+<h1 class="titulo">Contac<span style="color: #ed1b24">tos</span></h1>
 </header>
-<body>
 
  <main>
+  <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+    <p class="w3-center w3-large"> Para mas información sobre nuestros servicios, registrate y te contactaremos.</p>
+    <div style="margin-top:48px">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Ciudad de Mendoza. Argentina.</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Telefono: +54 1515151515.</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: Estefaniatillero@gmail.com</p>
+    
+   <div class="form">
     <form action="contactos.html"  method="post" name="formDatosPersonales">
-
         <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre" placeholder=""/><br>
+        <input class="color" type="text" name="nombre" id="nombre" placeholder=""/><br>
     
         <label for="apellido">Apellido:</label>
-        <input type="text" name="apellido" id="apellido" placeholder=""/><br>
+        <input class="color" type="text" name="apellido" id="apellido" placeholder=""/><br>
     
         <label for="email">Email:   </label>
-        <input type="email" name="email" id="email" placeholder="" required />
+        <input  class="color" type="email" name="email" id="email" placeholder="" required />
          <br>
         <label for="asunto">Asunto:  </label>
-        <input type ="text" name="asunto" id="asunto" placeholder=""/><br>
+        <input class="color" type ="text" name="asunto" id="asunto" placeholder=""/><br>
     
         <label for="mensaje">Mensaje:</label>
-        <textarea name="mensaje" for="mensaje" placeholder="" maxlength="300"></textarea>
-        
+        <textarea class="color" name="mensaje" for="mensaje" placeholder="" maxlength="300"></textarea>
            <p>
 
-            Intereses (Vinoteca):<br>
-        
-            <input type="checkbox" name="Tinto" value="gusta"> tinto<br>
-        
-            <input type="checkbox" name="Blanco" value="gusta"> Blanco<br>
-        
-            <input type="checkbox" name="Rosado" value="gusta"> Rosado 
-        
+            Intereses (Vinoteca):
+            <label  for="viñedos"> Viñedos favoritos:</label>
+        <textarea class="color" name="viñedos" for="viñedos" placeholder="" maxlength="300"></textarea>
+
           </p>
         <input type="submit" value="Enviar">
         <input type="reset" value="Borrar">
        </form>
 
-       <div class="mapa">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65115.88458221334!2d-68.85070303528245!3d-32.87824713362459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0834da3d73f5%3A0x27da1f4be0cdbb4f!2sCerro%20de%20la%20Gloria!5e0!3m2!1ses-419!2sar!4v1633743308542!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      </div>
  </main>   
-
-       <footer class="footer">
-        <p>Todos los derechos reservados :: Vinoteca Mendoza :: Buenos
-             Aires, Argentina 2021.</p>
-    </footer> 
-    
+ <footer class="w3-center w3-white w3-padding-64">
+  <a href="contactos.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right">Vinos Mendoza</i> </a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+  </div>
 </body>
 </html>
